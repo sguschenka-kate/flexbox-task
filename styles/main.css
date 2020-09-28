@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Miso;
+  src: url(../fonts/MISO-BOLD.OTF);
+}
+
+@font-face {
+  font-family: Lato Light;
+  src: url(../fonts/Lato-light.ttf);
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  background: #fdde7e;
+  /* max-width: 1200px; */
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-item {
+  background: #fff;
+  width: 360px;
+  height: 441px;
+  margin: 5px;
+  box-shadow: 0 0 7px grey;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gold-cup {
+  align-self: stretch;
+  padding: 50px 0;
+}
+
+.gold-cup-price {
+  padding-bottom: 50px;
+}
+
+.flex-content-list {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  color: #02995b;
+  font-family: Miso;
+  font-size: 70px;
+}
+
+.title {
+  color: #333;
+  font-family: Miso;
+  font-size: 56px;
+}
+
+.desc {
+  color: #333;
+  font-family: Lato Light;
+  font-size: 20px;
+  line-height: 7px;
+  margin-top: 40px;
+}
